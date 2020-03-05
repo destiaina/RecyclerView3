@@ -87,6 +87,7 @@
 		android:layout_marginTop="8dp"
 		android:layout_marginEnd="16dp"
 		android:text="Exercise"
+		android:onClick="handleExerciseButton"
 		android:textAllCaps="false"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"

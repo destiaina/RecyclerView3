@@ -33,4 +33,8 @@ public class MainActivity extends AppCompatActivity {
 		Intent intent = new Intent(this, ViewTypeActivity.class);
 		startActivity(intent);
 	}
+	public void handleExerciseButton(View view) {
+		Intent intent = new Intent(this, exercise.class);
+		startActivity(intent);
+	}
 }
