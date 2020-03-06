@@ -27,12 +27,12 @@ public class exercise extends AppCompatActivity {
         RecyclerView teamsView = findViewById(R.id.rv_teams);
 
         List<TeamLat> teams = new ArrayList<>();
-        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/360px-Liverpool_FC.svg.png", "RBC News", "A city Living Under the Shadow"));
-        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/360px-Manchester_City_FC_badge.svg.png", "NY News", "One Problem for Democratic Leaders"));
-        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/360px-Liverpool_FC.svg.png", "BBC World", "The Golden Secret to Better Breakfast"));
-        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/360px-Manchester_City_FC_badge.svg.png", "NBC Nightly", "How to Plan Your First Ski Vacation"));
-        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/360px-Liverpool_FC.svg.png", "RBC News", "How Social Isolation Is Killing Us"));
-        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/360px-Manchester_City_FC_badge.svg.png", "BBC World", "Use Labels to Sort Messages in Facebook"));
+        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/RBC_Royal_Bank.svg/1200px-RBC_Royal_Bank.svg.png", "RBC News", "A city Living Under the Shadow"));
+        teams.add(new TeamLat("https://images.squarespace-cdn.com/content/v1/5436a303e4b03395a9c75ebc/1525311215317-QA6HMPP97IBSUFV3RR8N/ke17ZwdGBToddI8pDm48kDGihCofVLFFQ3A_62QlDaF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UdKJhKFH3AuJnhryvAnjP5ItMcsXfXrRYcAvHbZOeqcY3WUfc_ZsVm9Mi1E6FasEnQ/Appealing-Nytimes-Logo-43-On-Free-Logo-Design-with-Nytimes-Logo-945x1221.jpg.png", "NY News", "One Problem for Democratic Leaders"));
+        teams.add(new TeamLat("https://vignette.wikia.nocookie.net/tvfanon6528/images/0/0e/BBC_World_News_%282019-.n.v.%29.png/revision/latest?cb=20190715171938", "BBC World", "The Golden Secret to Better Breakfast"));
+        teams.add(new TeamLat("https://www.freepnglogos.com/uploads/nbc-png-logo/play-games-nbc-png-logo-16.png", "NBC Nightly", "How to Plan Your First Ski Vacation"));
+        teams.add(new TeamLat("https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/RBC_Royal_Bank.svg/1200px-RBC_Royal_Bank.svg.png", "RBC News", "How Social Isolation Is Killing Us"));
+        teams.add(new TeamLat("https://vignette.wikia.nocookie.net/tvfanon6528/images/0/0e/BBC_World_News_%282019-.n.v.%29.png/revision/latest?cb=20190715171938", "BBC World", "Use Labels to Sort Messages in Facebook"));
 
         ExerciseAdapter adapter = new ExerciseAdapter(this, teams);
         teamsView.setAdapter(adapter);

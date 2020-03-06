@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.mikepenz.fastadapter.FastAdapter;
+
 public class MainActivity extends AppCompatActivity {
 
 	@Override
@@ -35,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
 	}
 	public void handleExerciseButton(View view) {
 		Intent intent = new Intent(this, exercise.class);
+		startActivity(intent);
+	}
+	public void handleFastAdapterButton(View view) {
+		Intent intent = new Intent(this, FastAdapterActivity.class);
 		startActivity(intent);
 	}
 }
